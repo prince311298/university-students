@@ -54,7 +54,7 @@
                     
 
                 </div>
-                <button>
+                <button class="button1">
                     <span>Register</span>
                 </button>
             </form>

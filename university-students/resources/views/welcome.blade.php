@@ -2,11 +2,6 @@
 
 @section('content')
     <style>
-        .carousel-control-next,
-        .carousel-control-prev {
-            top: 80px;
-        }
-
         .carousel-caption {
             z-index: 2
         }
@@ -53,7 +48,7 @@
     <section class="container my-5">
         <h2 class="text-center pb-4">Our Courses</h2>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="{{ url('asset/images/1.png') }}" class="card-img-top" alt="Programming">
                     <div class="card-body">
@@ -63,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="{{ url('asset/images/2.png') }}" class="card-img-top" alt="Design">
                     <div class="card-body">
@@ -73,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="{{ url('asset/images/3.png') }}" class="card-img-top" alt="Marketing">
                     <div class="card-body">
@@ -87,9 +82,9 @@
     </section>
 
     <section class="bg-light py-5">
-        <div class="container text-center">
+        <div class="container text-center" id="visionmision">
             <h2>About Us</h2>
-            <p>UniCourses is a platform dedicated to helping you achieve your goals with high-quality courses.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.</p>
             <div class="row">
                 <div class="responsive-container-block bigContainer">
                     <div class="responsive-container-block Container">
